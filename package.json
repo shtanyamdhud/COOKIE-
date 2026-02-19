@@ -1,1 +1,41 @@
-
+{
+  "name": "sharabi-cookies-tool",
+  "version": "1.0.0",
+  "description": "SHARABI COOKIES TOOL - Ultimate Facebook Message Sender with 15 & 16 Digit Groups Support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "facebook",
+    "cookies",
+    "messenger",
+    "bot",
+    "automation",
+    "sharabi"
+  ],
+  "author": "MR SHARABI",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fca-mafiya": "^1.4.9",
+    "uuid": "^9.0.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/sharabi-cookies-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/sharabi-cookies-tool/issues"
+  },
+  "homepage": "https://github.com/your-username/sharabi-cookies-tool#readme"
+}
